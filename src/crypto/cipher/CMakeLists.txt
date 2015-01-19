@@ -52,8 +52,9 @@ endmacro(fastd_cipher_impl_require)
 
 add_subdirectory(aes128_ctr)
 add_subdirectory(null)
-add_subdirectory(salsa2012)
 add_subdirectory(salsa20)
+add_subdirectory(salsa2012)
+add_subdirectory(salsa208)
 
 
 set(CIPHER_DEFINITIONS "")
